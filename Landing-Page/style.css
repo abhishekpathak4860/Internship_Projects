@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+     width: 100%;
+    /* height: 100vh;  */
+    overflow-x: hidden;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header section */
+.head {
+    height: 80px;
+    width: 100%;
+    /* background-color:#1E2126; */
+    background-color:black;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav section */
+
+/* background: url('https://snagfilms-a.akamaihd.net/07f03878-2e8b-4f70-a4d9-ebb2a920da80/images/e1/5d/a22d0d2d4340b182b6f25b72db1b/1551121313142_arijitsinghimages-tab.png') no-repeat center center/cover; */
+
+.head .logo img {
+    width: 8rem;
+    height: 5rem;
+    font-size: 45px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+}
+ .artist{
+    display: flex;
+    
+}
+
+ .submenu{
+     opacity: 0;     
+    position: absolute;
+   top: 48px;
+       visibility: hidden;    
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+    background-color: black;
+    width: 244px;
+}
+ .singers{
+    
+     position: relative;
+     top: -12px;
+     right: -35px;
+} 
+.deva{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    position: relative;
+    top: -19px;
+    left: 36px;
+ }
+    .artist:hover ul.submenu{
+     position: fixed; 
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    transition: all 0.6s ease;
+}    
+.submenu li{
+     margin-top: 45px; 
+}
+.submenu li a{
+    margin-top: 5px;
+    background-color: black;
+    
+}  
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 0rem 1.2rem;
+    position: relative;
+  float: left;
+  width: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+a:hover {
+    background-color: darkgray;
+    transition: all 0.4s ease;
+}
+
+.function_line {
+    display: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#icon_1 {
+    width: 2rem;
+    height: 2rem;
+}
+
+#icon_2 {
+    width: 2rem;
+    height: 2rem;
+    display: none;
+}
+     
+/*main section*/
+
+.arijit {
+    background: url('https://snagfilms-a.akamaihd.net/07f03878-2e8b-4f70-a4d9-ebb2a920da80/images/e1/5d/a22d0d2d4340b182b6f25b72db1b/1551121313142_arijitsinghimages-tab.png') center;
+    width: 100%;
+    height: 102vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute;
+    top: 80px;   */
+}
+
+ .but a {
+    color: white;
+    text-decoration: none;
+}
+
+ .arijit .btn {
+
+    padding: 8px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+     float: right; 
+      /* margin-top: -122rem;  */
+       margin-top: 16rem;
+      margin-right: 1rem;
+      font-size: 18px; 
+} 
+/* .active .btn{
+    margin-top: 23rem;
+    margin-right: 9rem; 
+}  */
+
+
+#aboutt {
+    height: 30px;
+     box-shadow: 0px 0px 2px black; 
+    margin-top: 10px;
+}
+#aboutt ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#aboutt ul p{
+    color:blue;
+    font-weight: 700;
+     margin: 0px 2px; 
+}
+#aboutt ul li {
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+#aboutt .hero_3 {
+    cursor: pointer;
+}
+
+#aboutt ul .active {
+    border-bottom: 1.8px solid red;
+}
+
+#about {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arijit_about {
+     
+ width: 50%;
+    height: 50%; 
+    margin-top: 2.9rem;
+    margin-left: 15rem;
+    margin-bottom: 1.6rem;
+    box-shadow: 0px 0px 5px black;  
+}
+
+#bengali {
+    display: none;
+}
+#icon{
+    color: blueviolet;
+    font-size: xx-large;
+}
+#bengali .bengalilist {
+    list-style: none;
+    color: black;
+    margin: 15px 4px;
+}
+#bengali .weight{
+    color:blue;
+}
+#bengali .weight:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 2px green;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.bengalisongs{
+    text-align: center;
+}
+#top{
+    margin-top: 12px;
+}
+.bengal .video {
+    display: none;
+}
+
+.bengal .smart {
+    display: none;
+}
+
+.bengal #bengali {
+    display: block;
+}
+
+.arijit_about iframe {
+    width: 100%;
+    height: 340px;
+}
+
+.smart {
+    line-height: 24px;
+    padding: 4px 8px;
+}
+.A{
+    font-size: x-large;
+
+}
+.video {
+    display: none;
+}
+
+.hide .smart {
+    display: none;
+}
+
+.hide .video {
+    display: block;
+    transition: all 0.9s linear;
+
+}
+
+.hide #bengali {
+    display: none;
+}
+
+.across .video {
+    display: none;
+}
+
+.across .smart {
+    display: block;
+    transition: all 0.9s linear;
+}
+
+.across #bengali {
+    display: none;
+}
+
+#playlist {
+    text-align: center;
+}
+
+/* gallery*/
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+}
+
+.master .instant_weather {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px; 
+    margin-top: 10px;
+}
+
+.master .instant_weather .part_1 {
+    /* min-height: 20px;    */
+      width: 227px;  
+     /* width: 50%; */
+    /* padding: 10px;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;  */
+    color: black;
+    margin: 10px 4px;
+     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); 
+    border-radius: 4%;
+
+}
+
+.picture {
+     width: 100%;
+     height: 100%;  
+}
+
+.picture:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.instant_weather .first {
+    color: black;
+    text-align: center;
+}
+
+.instant_weather .p_1 {
+    text-align: center;
+    line-height: 22px;
+    padding: 15px 6px;
+}
+.after_image{
+    margin-top: 5px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid whitesmoke;
+}
+#updates{
+    margin: 40px 0px;
+}
+#updates h2{
+    text-align: center;
+}
+.tour1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.view{
+    margin-left: 16px;
+    margin-top: 10px;
+}
+footer{
+    margin: 15px 2px;
+    /* background-color: #1e2126; */
+
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+     width: 100%; 
+background-color: #1e2126;
+
+}
+#top{
+    display:none;
+}
+#first_list ul{
+    margin: 20px 80px;
+}
+#first_list ul li{
+    list-style: none;
+    margin: 14px 0px;
+    font-size: small;
+}
+#second_list ul{
+    margin: 20px 80px;
+}
+#second_list ul li{
+    list-style: none;
+    margin: 14px 0px;
+    font-size: small;
+}
+
+#third_list ul{
+    margin: 20px 80px;
+}
+#third_list ul li{
+    list-style: none;
+    margin: 14px 0px;
+    font-size: small;
+}
+.devaa_1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 58px;
+}
+.devaa_2{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: relative;
+        top: 8px;
+        left: 60px;
+
+}
+
+.devaa_3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 53px;
+}
+.devaa_4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 42px;
+}
+.devaa_5{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 54px;
+}
+.color{
+    color: #A8A4A4;
+}
+.hr{
+    display: none;
+}
+#fourth_list #sign_up{
+    cursor: pointer;
+    color: white;
+    background-color: #f80046;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+/*media query*/
+@media (max-width:715px) {
+    .function_line {
+        display: block;
+        margin-right: 18px;
+        z-index: 999;
+        color: white;
+    }
+
+    .head {
+        z-index: 1000;
+        position: sticky;
+        top: 0px;
+    }
+    .submenu{
+         
+        flex-direction: row;
+        margin-top: 128px;
+    
+    }
+    .submenu li a{
+           margin-top: -15px;
+    }
+    
+    nav {
+        /* display: none; */
+
+        width: 100%;
+        height: 19rem;
+        position: absolute;
+        top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.555);
+        transform: translateY(-128%);
+        transition: all 0.2s linear; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 1.5rem 1.2rem;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    .active nav {
+        transform: translateY(0%);
+    }
+
+    .active #icon_2 {
+        display: block;
+    }
+
+    .active #icon_1 {
+        display: none;
+    }
+
+    .arijit {
+        height: 84vh;
+    }
+    
+    .btn {
+         margin-top: 35rem;
+        margin-right: 1rem;
+        font-size: 18px; 
+    }
+
+    .arijit_about {
+        padding: 0px 0px;
+        width: 95%;
+        margin-left: 0.5rem;
+    }
+
+    .arijit_about iframe {
+        width: 100%;
+        height: 250px;
+        margin: 5px 0px;
+    }
+
+    .master .instant_weather {
+        /* flex-direction: column;  */
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .master .instant_weather .part_1 {
+        width: 50%;
+        margin: 10px auto;
+        padding: 0px 5px;
+    }
+/* .foot{
+      flex-wrap: wrap;  
+    width: 31% 
+} */
+.foot{
+    flex-direction: column;
+position: relative;
+top: 14px;
+    width: 100%;
+}
+#top {
+    display: block;
+}
+#top #sign_top{
+    cursor: pointer;
+    color: white;
+    background-color: #f80046;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: x-large;
+}
+#first_list ul{
+    
+    position: relative;
+    top: 0px;
+      right: 65px;  
+}
+#first_list ul li{
+     font-size: 18.2px; 
+}
+#second_list ul{
+    position: relative;
+    top: 0px; 
+     right: 65px; 
+}
+#second_list ul li{
+     font-size: 18.2px; 
+    
+}
+#third_list ul{
+    position: relative;
+   top: 0px; 
+     right: 140px;  
+   
+}
+#third_list ul li{
+     font-size: 12px; 
+}
+.color{
+    font-size: 9px ;
+}
+.hr{
+    display: block;
+    width:220px; 
+    border: 0.5px solid #A8A4A4;;
+} 
+#fourth_list{
+    display: none;
+}
+}
+
+/* preloader*/
+#preloader{
+    background: #000 url(./pic/preloader.gif) no-repeat center center/cover;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+     z-index: 9999; 
+}
