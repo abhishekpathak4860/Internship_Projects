@@ -2,4 +2,4 @@
 
 Landing-Page : https://abhishekpathak4860.github.io/Internship_Projects/Landing-Page/
 
-Personal-Portfoio :  https://abhishekpathak4860.github.io/Internship_Projects/Personal-Portfolio
+Personal-Portfolio :  https://abhishekpathak4860.github.io/Internship_Projects/Personal-Portfolio
