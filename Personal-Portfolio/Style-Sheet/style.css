@@ -488,120 +488,100 @@ a:hover {
 }
 
 /* skills image*/
+
+ 
+.imageset{
+  display: flex;
+}
+
 .image1 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 26px;
+   margin-left: 22px;
   border-radius: 50%;
 }
 
 .image2 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 26px;
+  margin-left: 22px;
   border-radius: 50%;
 }
 
 .image3 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 38px;
+  margin-left: 35px;
   border-radius: 50%;
 }
 
 .image4 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 85px;
+  margin-left: 68px;
   border-radius: 50%;
 }
 
 .image5 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 94px;
+  margin-left: 79px;
   border-radius: 50%;
 }
 
 .image6 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 45px;
+  margin-left: 22px;
   border-radius: 50%;
 }
 
 .image7 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 67px;
+  margin-left: 47px;
   border-radius: 50%;
 }
 
 .image8 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 51px;
+  margin-left: 29px;
   border-radius: 50%;
 }
 
 .image9 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 72px;
+  margin-left: 57px;
   border-radius: 50%;
 }
 
 .image10 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 40px;
+  margin-left: 44px;
   border-radius: 50%;
 }
 
 .image11 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 39px;
+  margin-left: 44px;
   border-radius: 50%;
 }
 
 .image12 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 18px;
+  margin-left: 22px;
   border-radius: 50%;
 }
 
 .image13 {
   width: 40px;
   height: 40px;
-  position: relative;
-  top: 8px;
-  left: 59px;
+  margin-left: 62px;
   border-radius: 50%;
 }
 
