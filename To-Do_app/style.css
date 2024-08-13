@@ -85,7 +85,7 @@ ul  .done{
     text-decoration: line-through;
 }
 ul  .done::before{
-    background: url(ashiqui.jpg) no-repeat center center/cover;
+    background: url(ok-159817_1280 (1).png) no-repeat center center/cover;
     background-color: rgba(255, 0, 0, 0.429);
 }
 ul li span{
